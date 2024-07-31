@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: "Montserrat", sans-serif;*/
+
+/*font-family: "Cabin Condensed", sans-serif;*/
+
+
+/*aca comienza body*/
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+header div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0, 0, 0.4);
+    color: 240 248 255;
+   font-size: medium;
+ }
+/* 240248 258*/
+/*aca comienza header*/
+header {
+	background-color: #4567b7;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+/*aca comienza header img*/
+header img{
+	height:250px;
+	width:350px ;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+h4 img{
+	height:300px;
+	width:420px ;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+@media (max-width:900px) 
+{h5 img{
+	height:300px;
+	width:400px ;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}}
+
+	@media(max-width:900px) {h6 img{
+		height:400px;
+		width:700px ;
+		text-align: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}}
+	
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    background-color: #59c5f7;
+    position: sticky;
+    top: 0%;
+}
+	
+
+	
+/*aca comienza nav ul*/
+nav ul {
+	list-style: none;
+	margin:1;
+	padding:1;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*aca comienza nav li*/
+nav li {
+	margin-right: 50px;
+}
+/*aca comienza nav a*/
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+/*aca comienza el main*/
+main {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding: 2em;
+	
+}
+/*aca comienza el section*/
+section{
+	background-color: #b0e4f1;
+	padding: 1em;
+	margin-bottom: 20px;
+	
+}
+/*aca comienza h2*/
+h3 {margin: 0;
+	font-family: "Montserrat", sans-serif;
+}
+h2 {
+	font-family: "Cabin Condensed", sans-serif;
+
+}
+	
+
+/*aca comienza footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+/*aca comienza footer ul*/
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*aca comienza footer li*/
+footer li {
+	margin-right: 20px;
+}
+/*aca comienza footer a*/
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*estilos formularios*/
+form {
+    padding: 40px;
+    text-align: center;
+    border: 5px outset  blue; ;
+    background-color: lightblue;
+}
+label {
+    padding: 10px;
+    border-radius: 10px;
+    color: blue;
+    background-color: lightblue;
+}
+fieldset {
+display: grid;
+grid-template-columns:30vw 20vw ;
+gap: 10px;
+margin: auto;
+width: fit-content;
+font-size:1.2rem ;
+border: 5px double blue; ;
+}
+legend {
+    text-transform: uppercase;
+    font-size:1.1rem ;
+    font-weight: bolder;
+}
+@media(max-width:900px) {
+    fieldset {
+      display: flex;  
+      flex-direction: column;
+    }
+   
+}
+
+/*
+form {
+    padding: 40px;
+    text-align: center;
+    border: 5px outset  blue; ;
+    background-color: lightblue;
+} */
